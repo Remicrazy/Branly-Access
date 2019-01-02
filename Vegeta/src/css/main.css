@@ -1,0 +1,137 @@
+/*Color
+https://flatuicolors.com/palette/fr
+#4a69bd : Bleu
+#FFFFFF : Blanc
+rgba(0,0,0) : Transparent
+Teinte (+claire -> +sombre)
+Orange: #fad390; #f6b93b; #fa983a; #e58e26;
+Rouge: #f8c291; #e55039; #eb2f06; #b71540;
+Bleu: #6a89cc; #4a69bd; #1e3799; #0c2461;
+Cyan: #82ccdd; #60a3bc; #3c6382; #0a3d62;
+Vert: #b8e994; #78e08f; #38ada9; #079992;
+
+
+*/
+/*Font
+font-family: 'Montserrat','sans-serif';
+font-family: 'Roboto Condensed', 'sans-serif';
+*/
+@font-face
+{
+font-family: "Montserrat";
+src: url("Montserrat-Bold.ttf") format("truetype");
+font-weight: 700;
+}
+@font-face
+{
+font-family: "Roboto Condensed";
+src: url("RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+/*Global*/
+.heading-site{
+  text-align: center;
+  font-family: 'Montserrat','sans-serif';
+}
+.para{
+  font-family: 'Roboto Condensed', 'sans-serif';
+}
+.separator{
+  text-align: center;
+  height: 5px;
+  width: 25%;
+  border: none;
+  box-shadow: none;
+  background-color: #82ccdd;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header V2*/
+.navbar{
+  background-color: #82ccdd;
+  font-family: 'Montserrat','sans-serif';
+  color: #eb2f06;
+}
+.navbar a{
+  color: #eb2f06;
+}
+
+
+/*Banner*/
+.banner{
+  margin-top: 0px;
+}
+.banner .banner-image{
+  position: relative;
+}
+.banner .banner-content{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+  color: #e58e26;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+
+/*About*/
+.about .about-single-element .icon{
+  font-size: 60px;
+  text-align: center;
+}
+.about .about-single-element h6{
+  color: #e58e26;
+}
+.about .about-single-element{
+  text-align: center;
+}
+.about .about-single-element p{
+  text-align: left;
+}
+
+/*Supervision*/
+.supervisor{
+  background-color: #0a3d62;
+}
+.supervisor h2,
+.supervisor p{
+  color: #FFFFFF;
+}
+.supervisor .direction{
+  text-align: center;
+}
+.supervisor .checking{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Administration*/
+.administrator{
+  background-color: #b8e994;
+}
+.administrator .administrator-single{
+  text-align: center;
+}
+
+/*Modal*/
+.my-modal{
+  padding-top: 60px;
+}
+.notif{
+  display: none;
+}
+
+/*Formulaire*/
+.what-class{
+  display: none;
+}
+.what-post{
+  display: none;
+}
